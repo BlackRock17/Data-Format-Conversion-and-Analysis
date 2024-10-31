@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2024-10-31",
+    "product_id": 1003,
+    "quantity": 16,
+    "price": 38.05,
+    "customer_id": 33,
+    "total_amount": 608.8
+  },
+  {
+    "date": "2024-10-30",
+    "product_id": 1004,
+    "quantity": 15,
+    "price": 56.81,
+    "customer_id": 5,
+    "total_amount": 852.15
+  },
+  {
+    "date": "2024-10-29",
+    "product_id": 1002,
+    "quantity": 47,
+    "price": 59.2,
+    "customer_id": 41,
+    "total_amount": 2782.4
+  },
+  {
+    "date": "2024-10-28",
+    "product_id": 1004,
+    "quantity": 44,
+    "price": 26.64,
+    "customer_id": 28,
+    "total_amount": 1172.16
+  },
+  {
+    "date": "2024-10-27",
+    "product_id": 1004,
+    "quantity": 3,
+    "price": 97.26,
+    "customer_id": 7,
+    "total_amount": 291.78
+  },
+  {
+    "date": "2024-10-26",
+    "product_id": 1001,
+    "quantity": 37,
+    "price": 79.76,
+    "customer_id": 73,
+    "total_amount": 2951.12
+  },
+  {
+    "date": "2024-10-25",
+    "product_id": 1002,
+    "quantity": 7,
+    "price": 94.55,
+    "customer_id": 72,
+    "total_amount": 661.85
+  },
+  {
+    "date": "2024-10-24",
+    "product_id": 1002,
+    "quantity": 21,
+    "price": 90.53,
+    "customer_id": 12,
+    "total_amount": 1901.13
+  },
+  {
+    "date": "2024-10-23",
+    "product_id": 1002,
+    "quantity": 9,
+    "price": 63.81,
+    "customer_id": 34,
+    "total_amount": 574.29
+  },
+  {
+    "date": "2024-10-22",
+    "product_id": 1004,
+    "quantity": 39,
+    "price": 92.97,
+    "customer_id": 33,
+    "total_amount": 3625.83
+  },
+  {
+    "date": "2024-10-21",
+    "product_id": 1003,
+    "quantity": 18,
+    "price": 17.96,
+    "customer_id": 48,
+    "total_amount": 323.28
+  },
+  {
+    "date": "2024-10-20",
+    "product_id": 1002,
+    "quantity": 4,
+    "price": 27.64,
+    "customer_id": 23,
+    "total_amount": 110.56
+  },
+  {
+    "date": "2024-10-19",
+    "product_id": 1004,
+    "quantity": 25,
+    "price": 14.07,
+    "customer_id": 62,
+    "total_amount": 351.75
+  },
+  {
+    "date": "2024-10-18",
+    "product_id": 1001,
+    "quantity": 14,
+    "price": 39.28,
+    "customer_id": 88,
+    "total_amount": 549.92
+  },
+  {
+    "date": "2024-10-17",
+    "product_id": 1003,
+    "quantity": 9,
+    "price": 44.98,
+    "customer_id": 37,
+    "total_amount": 404.82
+  },
+  {
+    "date": "2024-10-16",
+    "product_id": 1001,
+    "quantity": 26,
+    "price": 34.42,
+    "customer_id": 99,
+    "total_amount": 894.92
+  },
+  {
+    "date": "2024-10-15",
+    "product_id": 1003,
+    "quantity": 2,
+    "price": 84.59,
+    "customer_id": 44,
+    "total_amount": 169.18
+  },
+  {
+    "date": "2024-10-14",
+    "product_id": 1004,
+    "quantity": 20,
+    "price": 42.11,
+    "customer_id": 86,
+    "total_amount": 842.2
+  },
+  {
+    "date": "2024-10-13",
+    "product_id": 1000,
+    "quantity": 28,
+    "price": 35.28,
+    "customer_id": 91,
+    "total_amount": 987.84
+  },
+  {
+    "date": "2024-10-12",
+    "product_id": 1003,
+    "quantity": 47,
+    "price": 58.84,
+    "customer_id": 35,
+    "total_amount": 2765.48
+  },
+  {
+    "date": "2024-10-11",
+    "product_id": 1001,
+    "quantity": 7,
+    "price": 22.68,
+    "customer_id": 65,
+    "total_amount": 158.76
+  },
+  {
+    "date": "2024-10-10",
+    "product_id": 1004,
+    "quantity": 44,
+    "price": 82.2,
+    "customer_id": 99,
+    "total_amount": 3616.8
+  },
+  {
+    "date": "2024-10-09",
+    "product_id": 1003,
+    "quantity": 8,
+    "price": 16.71,
+    "customer_id": 47,
+    "total_amount": 133.68
+  },
+  {
+    "date": "2024-10-08",
+    "product_id": 1000,
+    "quantity": 47,
+    "price": 98.82,
+    "customer_id": 78,
+    "total_amount": 4644.54
+  },
+  {
+    "date": "2024-10-07",
+    "product_id": 1000,
+    "quantity": 35,
+    "price": 79.5,
+    "customer_id": 3,
+    "total_amount": 2782.5
+  },
+  {
+    "date": "2024-10-06",
+    "product_id": 1002,
+    "quantity": 14,
+    "price": 27.88,
+    "customer_id": 1,
+    "total_amount": 390.32
+  },
+  {
+    "date": "2024-10-05",
+    "product_id": 1002,
+    "quantity": 17,
+    "price": 10.5,
+    "customer_id": 5,
+    "total_amount": 178.5
+  },
+  {
+    "date": "2024-10-04",
+    "product_id": 1001,
+    "quantity": 36,
+    "price": 83.39,
+    "customer_id": 90,
+    "total_amount": 3002.04
+  },
+  {
+    "date": "2024-10-03",
+    "product_id": 1003,
+    "quantity": 40,
+    "price": 73.62,
+    "customer_id": 14,
+    "total_amount": 2944.8
+  },
+  {
+    "date": "2024-10-02",
+    "product_id": 1003,
+    "quantity": 4,
+    "price": 75.61,
+    "customer_id": 27,
+    "total_amount": 302.44
+  }
+]
