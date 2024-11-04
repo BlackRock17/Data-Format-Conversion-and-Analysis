@@ -5,13 +5,13 @@ class DataAnalyzer:
     @staticmethod
     def basic_analysis(df):
         """
-        Извършва базов анализ на данните
+        Performs basic data analysis
 
         Args:
-            df (pd.DataFrame): DataFrame за анализ
+            df (pd.DataFrame): DataFrame for analysis
 
         Returns:
-            dict: Речник с резултати от анализа
+            dict: Dictionary of analysis results
         """
         analysis = {
             'basic_stats': df.describe(),
