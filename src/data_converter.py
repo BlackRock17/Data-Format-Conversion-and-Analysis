@@ -7,45 +7,45 @@ import os
 class DataConverter:
     def __init__(self, output_dir='output'):
         """
-        Инициализира конвертора с базова директория за изход
+        Initializes the converter with a base directory for output
 
         Args:
-            output_dir (str): Път до изходната директория
+            output_dir (str): Path to the source directory
         """
         self.output_dir = output_dir
         self._ensure_directories()
 
     def _ensure_directories(self):
-        """Създава необходимите директории, ако не съществуват"""
+        """Creates the required directories if they do not exist"""
         for format_dir in ['csv', 'json', 'parquet']:
             os.makedirs(os.path.join(self.output_dir, format_dir),
                         exist_ok=True)
 
     def save_to_csv(self, df, filename):
-        """Запазва DataFrame в CSV формат"""
+        """Saves a DataFrame in CSV format"""
         path = os.path.join(self.output_dir, 'csv', filename)
         df.to_csv(path, index=False)
         return path
 
     def save_to_json(self, df, filename):
-        """Запазва DataFrame в JSON формат"""
+        """Saves a DataFrame in JSON format"""
         path = os.path.join(self.output_dir, 'json', filename)
         with open(path, 'w') as f:
             json.dump(df.to_dict(orient='records'), f, indent=2)
         return path
 
     def save_to_parquet(self, df, filename):
-        """Запазва DataFrame в Parquet формат"""
+        """Saves a DataFrame in Parquet format"""
         path = os.path.join(self.output_dir, 'parquet', filename)
         df.to_parquet(path)
         return path
 
     def get_file_sizes(self, filename):
         """
-        Връща размера на файловете във всички формати
+        Returns the size of files in all formats
 
         Returns:
-            dict: Речник с размерите на файловете
+            dict: File size dictionary
         """
         sizes = {}
         for format_name in ['csv', 'json', 'parquet']:
