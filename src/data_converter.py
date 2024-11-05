@@ -42,10 +42,10 @@ class DataConverter:
 
     def get_file_sizes(self, filename):
         """
-        Връща размера на файловете във всички формати
+        Returns the size of files in all formats
 
         Returns:
-            dict: Речник с размерите на файловете
+            dict: File size dictionary
         """
         sizes = {}
         for format_name in ['csv', 'json', 'parquet']:
