@@ -5,14 +5,14 @@ from datetime import datetime, timedelta
 
 def generate_sales_data(days=30, seed=42):
     """
-    Генерира примерни данни за продажби
+    Generates sample sales data
 
     Args:
-        days (int): Брой дни за генериране на данни
-        seed (int): Seed за възпроизводими резултати
+        days (int): Number of days to generate data
+        seed (int): Seed for reproducible results
 
     Returns:
-        pd.DataFrame: DataFrame с генерираните данни
+        pd.DataFrame: DataFrame with the generated data
     """
     np.random.seed(seed)
 
@@ -35,14 +35,14 @@ def generate_sales_data(days=30, seed=42):
 
 def generate_sales_data(days=30, seed=42):
     """
-    Генерира примерни данни за продажби
+    Generates sample sales data
 
     Args:
-        days (int): Брой дни за генериране на данни
-        seed (int): Seed за възпроизводими резултати
+        days (int): Number of days to generate data
+        seed (int): Seed for reproducible results
 
     Returns:
-        pd.DataFrame: DataFrame с генерираните данни
+        pd.DataFrame: DataFrame with the generated data
     """
     np.random.seed(seed)
 
