@@ -1,4 +1,3 @@
-# main.py
 from src.data_generator import generate_sales_data
 from src.data_converter import DataConverter
 from src.data_analyzer import DataAnalyzer
@@ -48,13 +47,13 @@ def main():
 
 
 def compare_formats():
-    print("\n5. Детайлно сравнение на форматите:")
+    print("\n5. Detailed format comparison:")
     comparator = FormatComparison()
     results = comparator.compare_formats('sales_data')
 
-    print("\nСравнителен анализ:")
+    print("\nComparative analysis:")
     print("-" * 60)
-    print(f"{'Формат':<10} {'Размер (bytes)':<20} {'Време за четене (sec)':<20}")
+    print(f"{'Format':<10} {'Size (bytes)':<20} {'Read Time (sec)':<20}")
     print("-" * 60)
 
     for format_type, metrics in results.items():

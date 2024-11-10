@@ -8,7 +8,7 @@ class FormatComparison:
         self.base_dir = base_dir
 
     def read_file(self, format_type, filename):
-        """Чете файл от определен формат и измерва времето"""
+        """Read a file of a certain format and measure the time"""
         filepath = os.path.join(self.base_dir, format_type, filename)
         start_time = time.time()
 
@@ -23,17 +23,17 @@ class FormatComparison:
         return df, end_time - start_time
 
     def compare_formats(self, filename_base):
-        """Сравнява различни аспекти на форматите"""
+        """Compares various aspects of the formats"""
         results = {}
 
         for format_type in ['csv', 'json', 'parquet']:
             filename = f"{filename_base}.{format_type}"
             filepath = os.path.join(self.base_dir, format_type, filename)
 
-            # Размер на файла
+            # File size
             file_size = os.path.getsize(filepath)
 
-            # Скорост на четене
+            # Reading speed
             _, read_time = self.read_file(format_type, filename)
 
             results[format_type] = {
