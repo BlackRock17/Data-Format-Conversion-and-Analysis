@@ -2,6 +2,7 @@
 from src.data_generator import generate_sales_data
 from src.data_converter import DataConverter
 from src.data_analyzer import DataAnalyzer
+from src.format_comparison import FormatComparison
 
 
 def main():
@@ -46,5 +47,20 @@ def main():
     print(analysis_results['top_customers'])
 
 
+def compare_formats():
+    print("\n5. Детайлно сравнение на форматите:")
+    comparator = FormatComparison()
+    results = comparator.compare_formats('sales_data')
+
+    print("\nСравнителен анализ:")
+    print("-" * 60)
+    print(f"{'Формат':<10} {'Размер (bytes)':<20} {'Време за четене (sec)':<20}")
+    print("-" * 60)
+
+    for format_type, metrics in results.items():
+        print(f"{format_type:<10} {metrics['file_size']:<20} {metrics['read_time']:.4f}")
+
+
 if __name__ == "__main__":
     main()
+    compare_formats()
